@@ -35,7 +35,7 @@ if __name__ == '__main__':
     # Получить путь к загружаемому файлу и токен от пользователя
     HOST = 'https://cloud-api.yandex.net:443'
     path_to_file = '/main2.py'
-    token = 'AQAAAAA6V87mAADLW1dKDlEyvUKgtP9prsHI_TY'
+    token = ''
     uploader = YaUploader(token, HOST)
     result = uploader.upload(path_to_file, 'main2.py')
     print(result)
